@@ -10,7 +10,31 @@ body {
   height:90vh;
 }
 
-img {
-  height: 80px;
+.text-align {
+  display: flex;
+  width: 220px;
+  margin-left: 70px;
 }
 
+#changeText {
+  margin-left: 5px;
+}
+
+img {
+ max-width: 80px;
+}
+
+p:nth-child(1) {
+  opacity: 0.2;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 390px) {
+  img {
+    max-width: 50px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
