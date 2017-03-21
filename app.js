@@ -1,4 +1,4 @@
-var text = ["CHEF", "MAGICIAN", "SINGER", "DRUMMER", "PAINTER"]
+var text = ["BBOY", "HOUSE", "WACKING", "TAP", "POPPING"]
 
 var count = 0
 
